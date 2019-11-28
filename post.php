@@ -12,5 +12,6 @@ $username = $_GET['session_key'] ?? NULL;           # Get the username via the P
 $password = $_GET['session_password'] ?? NULL;      # Get the password via the POST query parameters
 
 // For debugging
-echo "<h3>All GET attributes</h3><pre>".print_r($_GET, true)."</pre>";
-echo "<h3>All SESSION attributes</h3><pre>".print_r($_SESSION, true)."</pre>";
+echo "<hr><h3>All GET attributes</h3><pre>".print_r($_GET, true)."</pre>";
+echo "<hr><h3>All SESSION attributes</h3><pre>".print_r($_SESSION, true)."</pre>";
+echo "<hr><h3>All POST attributes</h3><pre>".print_r($_POST, true)."</pre>";
