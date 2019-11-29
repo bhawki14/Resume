@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Project Specific
+# Ignore IDE config files, node_modules
+# Track shared scopes
+.idea/*
+!.idea/scopes
+/node_modules
