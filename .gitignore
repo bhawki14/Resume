@@ -5,3 +5,4 @@
 .idea/*
 !.idea/scopes
 /node_modules
+user_data.csv
